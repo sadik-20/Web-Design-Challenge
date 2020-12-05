@@ -14,11 +14,11 @@ body{
 }
 
 .navigation .navbar-brand{
-	color: white; 
-	margin-left: 50px; 
+  color: black; 
+  margin-left: 50px; 
 	padding: inherit; 
 	font-weight: bold; 
-	background-color: #38ab87;
+	background-color: #0cd2f5;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -38,7 +38,7 @@ body{
 /* Media Queries */
 @media (max-width: 991.98px){
 .navbar-expand-lg{
-	background-color: #38ab87;
+	background-color: #0cd2f5;
 }
 .navbar{
     max-height: none; 
@@ -79,7 +79,7 @@ button:focus {
 .description-header, .imageNav-header {
 	padding-top: 15px; 
 	padding-left: 4px;
-	color: #38ab87;
+	color: #0cd2f5;
 	font-size: 26px;
 	font-weight: bold;
 	font-family: Georgia, Times, "Times New Roman", serif;
