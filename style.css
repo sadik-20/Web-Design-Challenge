@@ -23,15 +23,15 @@ body{
 }
 
 .dropdown-item{
-    color: #30615c; 
+    color: #0cd2f5; 
 }
 
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
-    background-color:#adc7c4; 
+    background-color:#0cd2f5; 
 }
 
 .nav-link:hover{
-    background-color:#adc7c4;
+    background-color:#0cd2f5;
 }
 
 
@@ -97,13 +97,13 @@ img{
 }
 
 p{
-	color: #414d4a;
+	color: #2e3432;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .active, .imageNav-photo:hover{
-    border-color:#38ab87;
+    border-color:#0cd2f5;
     border-style: solid; 
 }
