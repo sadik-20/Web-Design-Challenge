@@ -1,38 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
+  ​
   <meta charset="UTF-8">
-  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  ​
+  <title>Bootstrap Visualization Dashboard</title>
+  ​
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <h2>Latitude</h2>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  ​
 </head>
-<body>
-  <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <!-- <a class="nav-link active" href="#">Plot</a> -->
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Plot</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="Max _Temperature.html">Max Temperature</a>
-            <a class="dropdown-item" href="Cloudness.html">Cloudness</a>
-            <a class="dropdown-item" href="Humidity.html">Humidity</a>
-            <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+​
 
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="Data.html">Data</a>
+<body>
+  <!-- Start of navbar -->
+  <div class="navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">Lattitude</a>
+      <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink"
+              role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind.html">Wind Speed</a>
+            </div>
           </li>
-        
-    </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </body>
     
 </html>
